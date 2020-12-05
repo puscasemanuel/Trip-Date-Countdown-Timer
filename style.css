@@ -8,3 +8,15 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
+.header {
+  background-image: linear-gradient(
+      rgba(112, 157, 150, 0.9),
+      rgba(112, 157, 150, 0.5)
+    ),
+    url('landscape.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
