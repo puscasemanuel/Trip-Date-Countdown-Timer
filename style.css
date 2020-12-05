@@ -20,7 +20,7 @@
 }
 
 .container {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -32,4 +32,33 @@
 .date_to_go {
   margin-top: 20px;
   font-size: 18px;
+}
+
+.timer {
+  margin-top: 120px;
+  text-align: left;
+}
+
+span {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 50px;
+  margin-left: 20px;
+  font-size: 70px;
+}
+
+span:first-child {
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+span:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.lorem {
+  margin-top: 130px;
+  font-size: 14px;
+  line-height: 25px;
 }
