@@ -7,17 +7,29 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 .header {
-  background-image: linear-gradient(
-      to right,
-      rgba(65, 118, 104, 0.6),
-      rgba(65, 118, 104, 0.2)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('forest.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.first_heading {
+  padding-top: 70px;
+  font-size: 64px;
+}
+
+.date_to_go {
+  margin-top: 20px;
+  font-size: 18px;
 }
