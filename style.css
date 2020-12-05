@@ -11,10 +11,11 @@
 
 .header {
   background-image: linear-gradient(
-      rgba(112, 157, 150, 0.9),
-      rgba(112, 157, 150, 0.5)
+      to right,
+      rgba(65, 118, 104, 0.6),
+      rgba(65, 118, 104, 0.2)
     ),
-    url('landscape.jpg');
+    url('forest.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
